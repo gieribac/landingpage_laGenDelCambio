@@ -1,0 +1,18 @@
+video {
+    position: relative;
+  display:block;
+  margin:auto;
+  text-align: center;
+
+  width: 82%;
+
+  display:inline-block;
+
+
+}
+
+body 
+{
+    justify-content: center;
+    text-align: center;
+}

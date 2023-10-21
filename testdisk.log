@@ -1,0 +1,214 @@
+
+
+Sat Oct 21 13:48:26 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.10.0-14-amd64 (#1 SMP Debian 5.10.113-1 (2022-04-29)) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.46.2, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, LBA48 support
+/dev/sda: size       976773168 sectors
+/dev/sda: user_max   976773168 sectors
+/dev/sdb: LBA, HPA, LBA48 support
+/dev/sdb: size       468862128 sectors
+/dev/sdb: user_max   468862128 sectors
+/dev/sdb: native_max 468862128 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - CT500BX500SSD1, S/N:2301E698AE76, FW:M6CR061
+Disk /dev/sdb - 240 GB / 223 GiB - CHS 29185 255 63, sector size=512 - CT240BX500SSD1, S/N:2006E3EA689A, FW:M6CR013
+Disk /dev/sdc - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - TOSHIBA External USB 3.0
+
+Partition table type (auto): Intel
+Disk /dev/sdc - 1000 GB / 931 GiB - TOSHIBA External USB 3.0
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+NTFS at 0/32/33
+ 1 * HPFS - NTFS              0  32 33 121601  25 24 1953519616 [TOSHIBA EXT]
+     NTFS, blocksize=4096, 1000 GB / 931 GiB
+
+ntfs_boot_sector
+ 1 * HPFS - NTFS              0  32 33 121601  25 24 1953519616 [TOSHIBA EXT]
+     NTFS, blocksize=4096, 1000 GB / 931 GiB
+NTFS at 0/32/33
+NTFS at 0/32/33
+filesystem size           1953519616
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+Boot sector
+Status: OK
+
+Backup boot sector
+Status: OK
+
+Sectors are identical.
+
+A valid NTFS Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+ntfs_device_testdisk_io_ioctl() unimplemented
+
+Directory /
+       5 dr-xr-xr-x     0      0         0  5-Oct-2023 00:25 .
+       5 dr-xr-xr-x     0      0         0  5-Oct-2023 00:25 ..
+      41 dr-xr-xr-x     0      0         0  9-Jun-2023 15:40 $RECYCLE.BIN
+  421211 dr-xr-xr-x     0      0         0  3-Feb-2023 17:31 .Trash-1000
+  422061 dr-xr-xr-x     0      0         0 26-Aug-2023 03:06 Carpeta sin título
+   61332 dr-xr-xr-x     0      0         0 22-Sep-2022 14:34 Copia de respaldo Gio
+      37 dr-xr-xr-x     0      0         0 30-Sep-2023 00:35 System Volume Information
+  421515 dr-xr-xr-x     0      0         0  7-Apr-2023 15:22 ata ejecucion
+      40 dr-xr-xr-x     0      0         0 31-May-2022 19:00 backup310522
+  421218 dr-xr-xr-x     0      0         0  7-Apr-2023 19:58 cpr ata
+  422056 dr-xr-xr-x     0      0         0  4-Oct-2023 19:53 cv2
+  421113 dr-xr-xr-x     0      0         0  9-Jun-2023 13:49 pasar
+      35 -r--r--r--     0      0    211925 28-Oct-2020 04:46 1 Year Standard Limited Warrant.pdf
+ 1052876 -r--r--r--     0      0       824 29-Sep-2023 22:49 9168logo_gio-removebg-preview2.ico
+  422058 -r--r--r--     0      0     25440 17-Jul-2023 18:54 E.7z
+  422035 -r--r--r--     0      0     61657 13-Apr-2023 09:14 Pago PSE.pdf
+  422042 -r--r--r--     0      0      1471 29-Jun-2023 21:33 clavs2 - Acceso directo.lnk
+  422055 -r--r--r--     0      0     24625 17-Jul-2023 18:52 fg.png
+ 1052865 -r--r--r--     0      0    262613 29-Sep-2023 22:47 logo_gio-removebg-preview (1).png
+ 1052874 -r--r--r--     0      0    170560 29-Sep-2023 22:48 logo_gio-removebg-preview2.png
+  422060 -r--r--r--     0      0     47770 18-Jul-2023 01:49 logo_gio.jpg
+  422060 -r--r--r--     0      0        57 18-Jul-2023 01:49 logo_gio.jpg:Zone.Identifier
+ 1052864 -r--r--r--     0      0    360648 29-Sep-2023 22:38 logo_gio.png
+ 1052863 -r--r--r--     0      0      1017  3-Sep-2023 15:37 perfil laboral elempleo desarrollador.txt
+  422043 -r--r--r--     0      0        52  9-Jul-2023 13:25 ver.txt
+
+ntfs_boot_sector
+ 1 * HPFS - NTFS              0  32 33 121601  25 24 1953519616 [TOSHIBA EXT]
+     NTFS, blocksize=4096, 1000 GB / 931 GiB
+NTFS at 0/32/33
+NTFS at 0/32/33
+filesystem size           1953519616
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+Boot sector
+Status: OK
+
+Backup boot sector
+Status: OK
+
+Sectors are identical.
+
+A valid NTFS Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+ntfs_boot_sector
+ 1 * HPFS - NTFS              0  32 33 121601  25 24 1953519616 [TOSHIBA EXT]
+     NTFS, blocksize=4096, 1000 GB / 931 GiB
+NTFS at 0/32/33
+NTFS at 0/32/33
+filesystem size           1953519616
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+Boot sector
+Status: OK
+
+Backup boot sector
+Status: OK
+
+Sectors are identical.
+
+A valid NTFS Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+ntfs_device_testdisk_io_ioctl() unimplemented
+
+
+Files with potentially recoverable content: 18
+ 1 * HPFS - NTFS              0  32 33 121601  25 24 1953519616 [TOSHIBA EXT]
+     NTFS, blocksize=4096, 1000 GB / 931 GiB
+Directory /
+ 1052898 -r--r--r--     0     0        23 21-Oct-2023 12:54 /backup310522/GIOVANNI/Google Drive/Freelance/public/.git/HEAD.ntfs-3g-0000000015
+ 1053016 -r--r--r--     0     0         0 21-Oct-2023 13:38 /backup310522/GIOVANNI/Google Drive/Freelance/public/.git/index.lock
+ 1053002 -r--r--r--     0     0      1931 21-Oct-2023 13:36 /backup310522/GIOVANNI/Google Drive/Freelance/public/.git/index.ntfs-3g-0000000014
+ 1053009 -r--r--r--     0     0      1931 21-Oct-2023 13:38 /backup310522/GIOVANNI/Google Drive/Freelance/public/.git/index.ntfs-3g-0000000016
+ 1053013 -r--r--r--     0     0       117 21-Oct-2023 13:38 /backup310522/GIOVANNI/Google Drive/Freelance/public/.git/index.ntfs-3g-0000000017
+ 1053019 -r--r--r--     0     0         0 21-Oct-2023 13:36 /backup310522/GIOVANNI/Google Drive/Freelance/public/.git/refs/heads/master.lock
+ 1052902 -r--r--r--     0     0        21 21-Oct-2023 13:08 /backup310522/GIOVANNI/Google Drive/Freelance/public/.gitignore
+  354485 -r--r--r--     0     0      2645 14-May-2022 21:12 /backup310522/GIOVANNI/Google Drive/Freelance/public/estilos.css
+  354486 -r--r--r--     0     0       212 12-May-2022 23:08 /backup310522/GIOVANNI/Google Drive/Freelance/public/estilos1.css
+  354487 -r--r--r--     0     0     10107 13-May-2022 00:50 /backup310522/GIOVANNI/Google Drive/Freelance/public/index.html
+  354475 -r--r--r--     0     0     10109 21-Oct-2023 13:43 /backup310522/GIOVANNI/Google Drive/Freelance/public/index.html.ntfs-3g-0000000018
+  354488 -r--r--r--     0     0      6926 13-May-2022 00:46 /backup310522/GIOVANNI/Google Drive/Freelance/public/script.js
+  354482 -r--r--r--     0     0   2946631  9-May-2022 07:44 Fondo.jpg
+  354477 -r--r--r--     0     0     15224 11-May-2022 13:48 ITCAvantGardeStd-Bk.woff2
+  354478 -r--r--r--     0     0     30132 11-May-2022 13:48 Labrador-A-Bold.ttf
+  354479 -r--r--r--     0     0     12652 11-May-2022 13:48 Labrador-A-Bold.woff2
+  354484 -r--r--r--     0     0      2986 12-May-2022 08:24 owners1497.json
+  354483 -r--r--r--     0     0    126238 12-May-2022 15:59 titulos-03-03.png
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+File has resident data.
+File has resident data.
+File has resident data.
+File has resident data.
+File has resident data.
+File has resident data.
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+ERROR: Couldn't set the file's date and time for inode_1053019
+
+TestDisk exited normally.
